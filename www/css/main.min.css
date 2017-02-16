@@ -1,0 +1,294 @@
+html {
+    margin: 0;
+    font-size: 62.5% !important;
+}
+
+body {
+    font-family: tahoma, arial, STHeitiSC-Light, microsoft yahei, sans-serif !important;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.button-click:active{
+    opacity:0.5;
+}
+.default-button{
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    line-height: 24px;
+    color:#ffffff;
+    border-radius:50px;
+    width:22rem!important;
+    min-height: 3.6rem!important;
+    height: 3.6rem!important;
+    margin: 0rem auto;
+    background:#549ae4;
+}
+
+.no-invoice-title .no-pic{
+    /*background-color: #888888;*/
+    display: block;
+    width: 8rem;
+    height: 7rem;
+    margin: 10rem auto 1rem;
+}
+.no-invoice-title p{
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color:#a9d0f2;
+    text-align:center;
+    width: 14rem;
+    margin: 0rem auto 4rem;
+}
+.home-page .add-head-title-btn{
+    padding: 10px 0px;
+    margin: 0 auto;
+    width: 60px;
+    line-height: 24px;
+    height: 44px;
+    color:#549ae4;
+    text-align: center;
+}
+.home-page .add-head-title-btn i{
+    display: inline-block;
+    border: 1px solid #549ae4;
+    border-radius: 100%;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    width:24px;
+    height:24px;
+}
+.home-page .add-head-title-btn span {
+    font-family:PingFangSC-Regular;
+    display:inline-block;
+    font-size: 15px;
+    height:24px;
+}
+.ewm-title-list{
+    position: relative;
+}
+.ewm-title-list .ion-ios-arrow-back,.ewm-title-list .ion-ios-arrow-forward{
+    position: absolute;
+    font-size: 3rem;
+    color: #E2E2E2;
+}
+.ewm-title-list .ion-ios-arrow-back{
+    top:14rem;;
+    left: 5%;
+}
+.ewm-title-list .ion-ios-arrow-forward{
+    top:14rem;;
+    right: 5%;
+}
+
+.ewm-list{
+    box-shadow:0px 0px 3px 0px rgba(0,0,0,0.30);
+    border-radius:3px;
+    width: 80%;
+    background:#ffffff;
+    margin: 0rem auto 1rem;
+}
+.ewm-info .ewm-pic{
+    display: block;
+    width:85%;
+    height:85%;
+    margin: 2rem auto 1.6rem;
+}
+.ewm-info .hint{
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    color:#000000;
+    text-align:center;
+    padding-top: 1.6rem;
+}
+.ewm-info .head-title{
+    font-family:PingFangSC-Light;
+    font-size:14px;
+    color:#549ae4;
+    text-align:center;
+    margin: 0rem 1.6rem 2rem;
+}
+.ewm-info .icon{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.ewm-info .icon .edit-icon{
+    margin-right: 3rem;
+}
+.button-share{
+    margin-top: 2.4rem!important;
+    background:#f5a623;
+}
+
+ .title-headline{
+    padding: 1.6rem 0px 0.6rem;
+    height: 3.6rem;
+    line-height: 1.4rem;
+    border-bottom: 1.5px solid #F2F2F3;
+}
+ .title-headline img{
+    display: inline-block;
+    float: left;
+    padding: 0rem 0.6rem 0rem 1.2rem;
+}
+ .title-headline .title, .title-headline .hint{
+    font-family:PingFangSC-Light;
+    font-size:13px;
+    color:#000000;
+    display: inline-block;
+    float: left;
+    line-height: 1.6rem;
+    height: 1.2rem;
+}
+.title-headline .hint{
+    font-size:12px;
+    color:#f5a623;
+}
+.invoice-title-info{
+    font-family:PingFangSC-Light;
+    font-size:14px;
+    text-align:left;
+    width: 94%;
+    margin: 1rem auto;
+    line-height: 2.8rem;
+}
+.invoice-title-info label{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    color:#999999;
+    padding-top: 4px;
+}
+.invoice-title-info span{
+    width: 76%;
+    display: inline-block;
+    text-align:right;
+    color:#333333;
+}
+.set-defualt{
+    font-family:PingFangSC-Light;
+    font-size:14px;
+    color:#333333;
+    text-align:left;
+    border: none;
+    margin: 0px;
+}
+
+.add-head-title .company-name,.ybnsr-info div{
+    margin: 0.4rem 1rem 0rem;
+    height: 3.4rem;
+    border-bottom: 1.5px solid #E7E6E9;
+}
+.add-head-title .company-name label,.ybnsr-info label{
+    font-family:PingFangSC-Light;
+    font-size:14px;
+    color:#666666;
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.add-head-title .company-name input,.ybnsr-info input{
+    display: inline-block;
+    float: right;
+    text-align:right;
+    font-size:14px;
+    width: 70%;
+    height: 3rem;
+}
+.ybnsr-title{
+    padding-top: 0px;
+    height: 2.4rem;
+}
+.ybnsr-title .arrow-icon{
+    float: right;
+    padding: 2px 1rem 0rem 0rem;
+}
+.ybnsr-info{
+   margin-top: 1rem;
+}
+.prompt-install{
+    position: absolute;
+    bottom: 12px;
+    font-family:PingFangSC-Light;
+    font-size:12px;
+    color:#f5a623;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 0.6rem;
+}
+.prompt-install img{
+    vertical-align:text-bottom;
+}
+
+
+.BM-info{
+    font-family:PingFangSC-Light;
+    font-size:13px;
+    text-align:left;
+    width: 94%;
+    margin: 1rem auto;
+    line-height: 2.8rem;
+}
+.BM-info label{
+    width: 20%;
+    display: inline-block;
+    float: left;
+    color:#999999;
+    padding-top: 4px;
+}
+.BM-info span{
+    width: 76%;
+    display: inline-block;
+    text-align:right;
+    color:#333333;
+}
+.BM-split-line{
+    border-bottom: 1.5px solid #E7E6E9;
+}
+
+.open-invoice-type label{
+    width: 25%;
+}
+.open-invoice-type span{
+    width: 72%;
+}
+.apply-prompt{
+    margin: 1.6rem auto;
+    height: 28px ;
+    line-height: 28px;
+    width: 32rem;
+}
+.apply-prompt img{
+    display: inline-block;
+    float: left;
+    padding-left: 1rem;
+}
+.apply-prompt span{
+    font-family:PingFangSC-Light;
+    font-size:13px;
+    color:#09bb27;
+    display: inline-block;
+    float: left;
+    padding-left: 1rem;
+}
+.download-cpkc span{
+    display: block;
+    font-family:PingFangSC-Light;
+    font-size:15px;
+    color:#666666;
+    text-align:center;
+    width: 80%;
+    margin: 4rem auto 1rem;
+}
+.download-cpkc a{
+    display: block;
+    font-family:PingFangSC-Light;
+    font-size:16px;
+    color:#549ae4;
+    text-align:center;
+    width: 12rem;
+    margin: 0rem auto;
+}
